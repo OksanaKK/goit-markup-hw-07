@@ -364,21 +364,13 @@ img {
   margin-bottom: 10px;
 }
 
-.team-social-link-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
+.team-social-link {
   background-color: #ffff;
-  fill: #AFB1B8;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: #afb1b8;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.team-social-link-link:hover,
-.team-social-link-link:focus {
-  background-color: var(--accent-color);
+.team-social-link:hover, .team-social-link:focus {
   fill: #ffff;
 }
 
@@ -477,29 +469,13 @@ img {
   margin-bottom: 20px;
 }
 
-.footer-social-link-list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .footer-social-links-item:not(last-child) {
   margin-right: 10px;
 }
 
-.footer-social-link-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
+.footer-social-link {
   background-color: rgba(255, 255, 255, 0.1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer-social-link-link:hover, .footer-social-link-link:focus {
-  background-color: var(--accent-color);
 }
 
 .footer-link-icon {
@@ -873,5 +849,18 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+.social-link:hover, .social-link:focus {
+  background-color: var(--accent-color);
 }
 /*# sourceMappingURL=main.css.map */
