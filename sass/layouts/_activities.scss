@@ -12,16 +12,16 @@
   margin-bottom: 50px;
 }
 
-.activities-list {
+.activities__list {
   display: flex;
 }
 
-.activities-list__image-wrapper {
+.activities__image-wrapper {
   position: relative;
 
 }
 
-.activities-list__text {
+.activities__text {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -41,6 +41,6 @@
 }
 
 
-.activities-list__item:not(:last-child) {
+.activities__item:not(:last-child) {
   margin-right: 30px;
 }

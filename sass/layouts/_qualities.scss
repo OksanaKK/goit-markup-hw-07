@@ -1,9 +1,9 @@
-.qualities-list {
+.qualities__list {
   display: flex;
   justify-content: center;
 }
 
-.qualities-list__item {
+.qualities__item {
   width: calc((100%-120px) / 4);
 
   &:not(:last-child) {
@@ -11,7 +11,7 @@
   }
 }
 
-.qualities-list__icons-wrapper {
+.qualities__icons-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,7 +22,7 @@
 }
 
 
-.qualities-list__head {
+.qualities__head {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 14px;
@@ -32,7 +32,7 @@
   margin-bottom: 10px;
 }
 
-.qualities-list__text {
+.qualities__text {
   font-size: 14px;
   line-height: 1.71;
 }
